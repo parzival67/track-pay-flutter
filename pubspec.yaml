@@ -40,6 +40,7 @@ dependencies:
   rive: ^0.9.1
   cloud_firestore: ^4.2.0
   firebase_core: ^2.4.0
+  url_launcher: ^6.1.7
 
 dev_dependencies:
   flutter_test:
@@ -68,6 +69,12 @@ flutter:
     - lib/assets/bulb.png
     - lib/assets/anim.riv
     - lib/assets/bgimage.png
+    - lib/assets/revaUniversity.png
+    - lib/assets/clubLogo.png
+    - lib/assets/havellsLight.png
+    - lib/assets/bulb.png
+    - lib/assets/upiQR.jpg
+
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
@@ -80,12 +87,13 @@ flutter:
   # "family" key with the font family name, and a "fonts" key with a
   # list giving the asset and other descriptors for the font. For
   # example:
-  # fonts:
-  #   - family: Schyler
-  #     fonts:
-  #       - asset: fonts/Schyler-Regular.ttf
-  #       - asset: fonts/Schyler-Italic.ttf
-  #         style: italic
+  fonts:
+    - family: RobotoSlab
+      fonts:
+        - asset: lib/assets/RobotoSlab-VariableFont_wght.ttf
+    - family: CoffeeHealing
+      fonts:
+        - asset: lib/assets/CoffeeHealing-1GrKe.ttf
   #   - family: Trajan Pro
   #     fonts:
   #       - asset: fonts/TrajanPro.ttf
